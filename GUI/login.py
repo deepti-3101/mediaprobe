@@ -134,7 +134,7 @@ entry_1.place(
 )
 
 entry_image_2 = PhotoImage(
-    file=relative_to_assets("entry_2.png"))
+    file=relative_to_assets("entry_1.png"))
 entry_bg_2 = canvas.create_image(
     1102.0,
     402.2493438720703,
@@ -153,7 +153,7 @@ entry_2.place(
 )
 
 entry_image_3 = PhotoImage(
-    file=relative_to_assets("entry_3.png"))
+    file=relative_to_assets("entry_1.png"))
 entry_bg_3 = canvas.create_image(
     1102.0,
     565.2493476867676,
