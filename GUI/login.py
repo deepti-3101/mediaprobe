@@ -129,8 +129,8 @@ entry_1 = Entry(
 entry_1.place(
     x=879.0,
     y=195.0,
-    width=446.0,
-    height=84.49868774414062
+    width=279,
+    height=51.35
 )
 
 entry_image_2 = PhotoImage(
@@ -148,8 +148,8 @@ entry_2 = Entry(
 entry_2.place(
     x=879.0,
     y=359.0,
-    width=446.0,
-    height=84.49868774414062
+    width=279,
+    height=51.35
 )
 
 entry_image_3 = PhotoImage(
@@ -167,8 +167,8 @@ entry_3 = Entry(
 entry_3.place(
     x=879.0,
     y=522.0,
-    width=446.0,
-    height=84.49869537353516
+    width=279,
+    height=51.35
 )
 
 canvas.create_text(
@@ -177,7 +177,7 @@ canvas.create_text(
     anchor="nw",
     text="UserName",
     fill="#102542",
-    font=("RobotoCondensed Regular", 24 * -1)
+    font=("RobotoCondensed Regular", 18 * -1)
 )
 
 canvas.create_text(
@@ -186,16 +186,16 @@ canvas.create_text(
     anchor="nw",
     text="Password",
     fill="#102542",
-    font=("RobotoCondensed Regular", 24 * -1)
+    font=("RobotoCondensed Regular", 18 * -1)
 )
 
 canvas.create_text(
-    1067.0,
+    867.0,
     491.0,
     anchor="nw",
     text="Mode",
     fill="#102542",
-    font=("RobotoCondensed Regular", 24 * -1)
+    font=("RobotoCondensed Regular", 18 * -1)
 )
 
 canvas.create_text(
